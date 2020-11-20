@@ -4,7 +4,7 @@ from django.utils.encoding import force_str
 from rest_framework.fields import Field
 
 
-class TimeZoneField(Field):
+class TimeZoneSerializerField(Field):
     default_error_messages = {
         'invalid': _('A valid timezone is required.'),
     }
