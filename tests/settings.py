@@ -69,7 +69,10 @@ if test_db_engine == 'postgres':
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'timezone_field_tests',
-            'USER': 'postgres',
+            'USER': 'test_user',
+            'PASSWORD': 'test_user',
+            'HOST': '127.0.0.1',
+            'PORT': '5599',
         },
     }
 

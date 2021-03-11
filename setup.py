@@ -35,7 +35,7 @@ setup(
     packages=[
         'timezone_field',
     ],
-    install_requires=['django>=2.2', 'pytz'],
+    install_requires=['django>=1.11', 'pytz'],
     extras_require={
         'rest_framework': ['djangorestframework>=3.0.0']
     },
